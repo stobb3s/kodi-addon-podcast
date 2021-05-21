@@ -300,3 +300,7 @@ msgstr "Unerwarteter Inhalt für Podcast"
 msgctxt "#32095"
 msgid "Authentification at gPodder failed. Missing session"
 msgstr "Anmeldung an gPodder fehlgeschlagen."
+
+msgctxt "#32096"
+msgid "Sort feeds alphabetically"
+msgstr ""

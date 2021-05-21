@@ -300,3 +300,7 @@ msgstr ""
 msgctxt "#32095"
 msgid "Authentification at gPodder failed. Missing session"
 msgstr ""
+
+msgctxt "#32096"
+msgid "Sort feeds alphabetically"
+msgstr ""

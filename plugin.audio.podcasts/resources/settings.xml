@@ -8,9 +8,9 @@
     <setting label="32063" type="text" option="hidden" id="gpodder_password" default="" />
     <setting label="32068" type="action" option="close" action="Addon.OpenSettings($ID)" />
 
-    
+
   </category>
-  
+
   <category label="32060">
 
     <setting label="32061" type="lsep" />
@@ -709,6 +709,7 @@
   <category label="32050">
 
     <setting label="32051" type="bool" id="anchor" default="false" />
+    <setting label="32096" type="bool" id="sort_alphabetic" default="false" />
 
   </category>
 

@@ -350,10 +350,9 @@ class Mediathek:
         for entry in node["node"]:
             self._add_list_item(entry, path)
 
-        xbmcplugin.addSortMethod(
-            self.addon_handle, xbmcplugin.SORT_METHOD_FULLPATH)
-        xbmcplugin.addSortMethod(
-            self.addon_handle, xbmcplugin.SORT_METHOD_LABEL)
+        if settings.getSetting("sort_alphabetic") == "true" and path != "/":
+            xbmcplugin.addSortMethod(
+                self.addon_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 
         xbmcplugin.endOfDirectory(
             self.addon_handle, updateListing=updateListing)
